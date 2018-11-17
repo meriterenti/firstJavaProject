@@ -3,6 +3,6 @@ public class Factorial{
 		if(num == 1) {
 			return num;
 		}
-		return num * compute(num -1);
+		return num * compute(num - 1);
 	}
 }
