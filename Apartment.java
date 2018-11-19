@@ -25,7 +25,7 @@ public class Apartment extends RealEstate{
 	
 	public int priceWithoutElevator() {
 		if(!this.hasElevator) {
-			this.price = this.price*85/100;
+			return this.price * 85/100;
 		}
 		return this.price;
 	}
