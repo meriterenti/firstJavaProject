@@ -2,7 +2,6 @@ public class Home extends RealEstate{
 	int landArea;
 	int countOfFloors;
 	Home[] listings;
-	String isMansion;
 	
 	public Home(String title, int rooms, int price, String type, int landArea, int countOfFloors ) {
 		super(title, rooms, price, type);
