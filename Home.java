@@ -26,10 +26,8 @@ public class Home extends RealEstate{
 	
 	public String getHomeType() {
 		if(this.landArea > 5000) {
-			this.isMansion = "This home is a mension";
-		}else {
-			this.isMansion = "It's a small home";
+			return "This home is a mansion";
 		}
-		return this.isMansion;
+		return "It's a small home";
 	}
 }
